@@ -362,19 +362,16 @@ h1 {
         display: none;
     }
     .leftSide {
-        margin: auto;
-        padding: 0;
-    }
-}
-
-@media (max-width: 500px) {
-    .leftSide {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        padding: 0;
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+    .leftSide h1 {
+        width: 100%;
     }
 }
 
