@@ -272,6 +272,9 @@ header nav a:hover {
     header nav a {
         margin: 20px 15px 0 15px;
     }
+    .navul {
+        width: 100%;
+    }
     .logolink {
         order: -1;
         width: 100%;
